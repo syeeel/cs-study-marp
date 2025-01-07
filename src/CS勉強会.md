@@ -6,7 +6,7 @@ lang: "ja"
 header: "データサイエンティストのためのソフトウェア工学入門"
 footer: "©2025 Satoshi Yoshimura"
 style: |
-  @import url('./style/custom.css');
+  @import url('../style/custom.css');
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
   section {
     justify-content: flex-start;
