@@ -23,7 +23,7 @@ mermaid.initialize({ startOnLoad: true });
 # HTML 生成コマンド
 
 ```
-npx marp src/CS勉強会.md --html --allow-local-files --theme style/theme.css -o docs/index.html
+npx marp src/CS勉強会.md --html --allow-local-files --theme-set ./style/ -o docs/index.html --embed-cs
 ```
 
 # PDF 生成コマンド

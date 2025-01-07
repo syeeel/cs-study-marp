@@ -6,14 +6,76 @@ lang: "ja"
 header: "データサイエンティストのためのソフトウェア工学入門"
 footer: "©2025 Satoshi Yoshimura"
 style: |
-  @import url('../style/custom.css');
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+  /* プレゼンテーション全体のスタイル */
   section {
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: white;
+    font-size: 24px;
+    line-height: 1.5;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 50px;  /* 必要に応じて調整 */
-    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 50px;
   }
+
+  /* 見出しのスタイル */
+  h1 {
+    color: #230ee0;
+    font-size: 40px;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    color: #230ee0;
+    font-size: 32px;
+    margin-bottom: 0.8em;
+  }
+
+  /* リストのスタイル */
+  ul, ol {
+    font-size: 22px;
+    margin-left: 1em;
+    line-height: 1.6;
+  }
+
+  /* ネストされたリストのスタイル */
+  ul ul, ul ol, ol ul, ol ol {
+    font-size: 20px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  /* リストアイテムの間隔 */
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  /* テキストのスタイル */
+  p {
+    font-size: 24px;
+    margin-bottom: 1em;
+  }
+
+  /* コードブロックのスタイル */
+  pre {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 1em;
+  }
+
+  /* ヘッダーとフッターのスタイル */
+  header, footer {
+    color: #666;
+    font-size: 0.8em;
+  }
+
+  /* 画像のスタイル */
+  section img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+  }
+
+  /* Mermaidのフォントサイズ */
   .mermaid { 
     font-size: 16px;
   }
