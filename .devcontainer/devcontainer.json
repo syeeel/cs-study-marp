@@ -10,7 +10,10 @@
 		// Configure properties specific to VS Code.
 		"vscode": {
 			"settings": {
-				"editor.formatOnSave": true
+				"editor.formatOnSave": true,
+				"markdown.marp.html": "all",
+				"markdown.marp.enableMermaid": true,
+				"markdown.preview.security.disableSecurityWarnings": true
 			},
 			"extensions": [
 				"dbaeumer.vscode-eslint",
@@ -19,7 +22,8 @@
 				"vscode-icons-team.vscode-icons",
 				"bradlc.vscode-tailwindcss",
 				"vitest.explorer",
-				"marp-team.marp-vscode"
+				"marp-team.marp-vscode",
+				"ms-vscode.live-server"
 			]
 		}
 	},
