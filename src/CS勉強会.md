@@ -34,7 +34,7 @@ mermaid.initialize({ startOnLoad: true });
 # ソフトウェア工学入門
 
 <div style="display: flex; justify-content: center;">
-    <img src="../images/study-cs-top.jpeg" alt="ソフトウェア工学" style="border-radius: 10px; width: 50%;">
+    <img src="./images/study-cs-top.jpeg" alt="ソフトウェア工学" style="border-radius: 10px; width: 50%;">
 </div>
 
 ---
@@ -117,7 +117,7 @@ mindmap
   </div>
 
   <div style="flex-shrink: 0;">
-    <img src="../images/wheel.jpeg" alt="ソフトウェア工学" style="border-radius: 10px;">
+    <img src="./images/wheel.jpeg" alt="ソフトウェア工学" style="border-radius: 10px;">
   </div>
 </div>
 
@@ -196,7 +196,7 @@ void memory_leak_example() {
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6f9Q4ISQd5SbWoFTdrtGE5xZkelLUbPxKDA&s" alt="ミサイル" style="border-radius: 10px;">
   </div>
     <div style="flex-shrink: 1;">
-    <img src="../images/space-rocket.jpg" alt="スペースシャトル" style="border-radius: 10px;">
+    <img src="./images/space-rocket.jpg" alt="スペースシャトル" style="border-radius: 10px;">
   </div>
 </div>
 
@@ -432,7 +432,7 @@ VSCode の拡張機能である **Remote - Containers** を利用することで
     <img src="https://code.visualstudio.com/assets/docs/devcontainers/containers/architecture-containers.png" alt="devcontainer" style="border-radius: 10px; width: 600px;">
   </div>
   <div>
-    <img src="../images/devcontainer.png" alt="code" style="border-radius: 10px;">
+    <img src="./images/devcontainer.png" alt="code" style="border-radius: 10px;">
   </div>
 </div>
 
