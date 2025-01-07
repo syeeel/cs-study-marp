@@ -22,6 +22,8 @@ mermaid.initialize({ startOnLoad: true });
 
 # HTML 生成コマンド
 
+## Github Pages で公開する場合、以下のコマンドで docs/index.html を生成する必要があります。
+
 ```
 npx marp src/CS勉強会.md --html --allow-local-files --theme-set ./style/ -o docs/index.html --embed-cs
 ```

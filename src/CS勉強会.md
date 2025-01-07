@@ -584,3 +584,4 @@ Marp とは Markdown 形式で PowerPoint や PDF を作成できるツールで
 
 - [Marp の公式サイト](https://marp.app/)
 - [Public においた本資料のコード](https://github.com/syeeel/cs-study-marp)
+- [Github Pages においた本資料](https://syeeel.github.io/cs-study-marp)
