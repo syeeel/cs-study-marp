@@ -56,3 +56,10 @@ header, footer {
     color: #666;
     font-size: 0.8em;
 }
+
+/* 画像のスタイル */
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
