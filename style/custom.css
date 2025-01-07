@@ -1,6 +1,6 @@
 /* プレゼンテーション全体のスタイル */
 section {
-    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo', 'MS PGothic', sans-serif;
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
     background-color: white;
     font-size: 24px;
     line-height: 1.5;

@@ -20,8 +20,14 @@ import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.es
 mermaid.initialize({ startOnLoad: true });
 </script>
 
-# 生成コマンド
+# HTML 生成コマンド
 
 ```
-npx marp src/CS勉強会.md --html --allow-local-files
+npx marp src/CS勉強会.md --html --allow-local-files -o docs/index.html
+```
+
+# PDF 生成コマンド
+
+```
+npx marp src/CS勉強会.md --pdf --allow-local-files -o docs/index.pdf
 ```

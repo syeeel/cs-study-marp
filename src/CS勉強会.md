@@ -7,14 +7,15 @@ header: "データサイエンティストのためのソフトウェア工学�
 footer: "©2025 Satoshi Yoshimura"
 style: |
   @import url('../style/custom.css');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
   section {
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 50px;  /* 必要に応じて調整 */
+    font-family: 'Noto Sans JP', sans-serif;
   }
   .mermaid { 
     font-size: 16px;
-    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
   }
 math: mathjax
 mermaid: true
