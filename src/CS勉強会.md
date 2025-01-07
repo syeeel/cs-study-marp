@@ -5,10 +5,22 @@ paginate: true
 lang: "ja"
 header: "データサイエンティストのためのソフトウェア工学入門"
 footer: "©2025 Satoshi Yoshimura"
-style: "@import url('../style/custom.css')"
+style: |
+  @import url('../style/custom.css');
+  .mermaid { 
+    font-size: 16px;
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  }
 math: mathjax
 mermaid: true
 ---
+
+<!-- Mermaidを読み込み -->
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script>
+<!-- Mermaidを読み込み -->
 
 # データサイエンティストのための
 
@@ -24,16 +36,28 @@ mermaid: true
 
 # 目次
 
-1. 開発環境の構築と活用
-   - VSCode と Jupyter Notebook
-   - devcontainer による環境統一
-2. 効果的なコーディング手法
+1. ソフトウェア工学の重要性
+   - なぜソフトウェア工学が必要か？
+   - 車輪の再発明を防ぐ
+   - 巨人の肩に乗る
+2. 用法用量を守って
+   - 高度化するソフトウェア開発
+   - 適切なコーディング手法の選択
+   - 帰納と演算
+   - 個人とチーム
+3. 効果的なコーディング手法
    - コメントの重要性
    - 可読性の高いコード作成
-3. AI ツールの活用
+
+---
+
+4. 開発環境の構築と活用
+   - VSCode と Jupyter Notebook
+   - devcontainer による環境統一
+5. AI ツールの活用
    - GitHub Copilot の活用
-   - ChatGPT の効果的な使用方法
-4. ベストプラクティス
+   - Cursor の活用
+6. ベストプラクティス
    - コードレビュー
    - テスト駆動開発の基礎
 
@@ -52,13 +76,20 @@ mermaid: true
   - 6 ヶ月後の自分が理解できるコード
   - チームでの開発効率向上
 
-```mermaid
+---
+
+<pre class="mermaid">
 graph LR
-    A[データ分析] --> B[コード化]
-    B --> C[共有・レビュー]
-    C --> D[改善・最適化]
+    A(["データ分析"])
+    B(["コード化"])
+    C(["共有・レビュー"])
+    D(["改善・最適化"])
+    
+    A --> B
+    B --> C
+    C --> D
     D --> A
-```
+</pre>
 
 ---
 
@@ -79,7 +110,7 @@ graph LR
 
 ## 2.2 VSCode の便利な機能
 
-```mermaid
+<pre class="mermaid">
 mindmap
   root((VSCode機能))
     インテリセンス
@@ -98,7 +129,7 @@ mindmap
       Jupyter
       Python
       Git
-```
+</pre>
 
 ---
 
@@ -108,7 +139,7 @@ mindmap
 
 devcontainer は、開発環境を**コンテナ化**することで、チーム全員が同じ環境で開発できる仕組みです。
 
-```mermaid
+<pre class="mermaid">
 graph TD
     A[開発者1] --> C[devcontainer]
     B[開発者2] --> C
@@ -117,7 +148,7 @@ graph TD
     E --> F[Python 3.9]
     E --> G[必要なライブラリ]
     E --> H[設定ファイル]
-```
+</pre>
 
 ---
 
@@ -186,14 +217,14 @@ def calculate_moving_average(data: pd.Series,
 
 ## 5.1 探索的データ分析（EDA）
 
-```mermaid
+<pre class="mermaid">
 flowchart LR
     A[データ読み込み] --> B[前処理]
     B --> C[可視化]
     C --> D[仮説立案]
     D --> E[統計分析]
     E --> C
-```
+</pre>
 
 ### Jupyter Notebook の活用
 
@@ -259,7 +290,7 @@ def detect_ma_signals(price_data: pd.DataFrame) -> pd.DataFrame:
 
 ## 6.2 ChatGPT の活用
 
-```mermaid
+<pre class="mermaid">
 graph TD
     A[問題発生] --> B{ChatGPTに質問}
     B --> C[回答の理解]
@@ -268,7 +299,7 @@ graph TD
     E --> F{問題解決}
     F -->|No| B
     F -->|Yes| G[文書化]
-```
+</pre>
 
 ### 効果的な質問方法
 
@@ -303,7 +334,7 @@ def test_calculate_moving_average():
 
 ## 7.2 コードレビューのポイント
 
-```mermaid
+<pre class="mermaid">
 graph LR
     A[コード提出] --> B[自動チェック]
     B --> C[手動レビュー]
@@ -311,7 +342,7 @@ graph LR
     D -->|Yes| E[マージ]
     D -->|No| F[修正]
     F --> A
-```
+</pre>
 
 ### レビューの観点
 
