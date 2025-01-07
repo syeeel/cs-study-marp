@@ -7,6 +7,11 @@ header: "データサイエンティストのためのソフトウェア工学�
 footer: "©2025 Satoshi Yoshimura"
 style: |
   @import url('../style/custom.css');
+  section {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;  /* 必要に応じて調整 */
+  }
   .mermaid { 
     font-size: 16px;
     font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
@@ -56,6 +61,11 @@ mermaid.initialize({ startOnLoad: true });
 5. AI ツールの活用
    - GitHub Copilot の活用
    - Cursor の活用
+6. まとめ
+   - まとめ
+   - 参考資料
+   - 参考文献
+   - 最後に補足(Marp について)
 
 ---
 
@@ -502,7 +512,7 @@ VSCode を独自に拡張開発しているため、AI の利用を前提とし�
 
 ---
 
-## 最後に補足
+## 最後に補足 (Marp について)
 
 今回の資料は Marp を利用して作成しました。
 Marp とは Markdown 形式で PowerPoint や PDF を作成できるツールです。
