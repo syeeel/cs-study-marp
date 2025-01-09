@@ -91,12 +91,10 @@ mermaid.initialize({ startOnLoad: true });
 </script>
 <!-- Mermaidを読み込み -->
 
-# データサイエンティストのための
-
-# ソフトウェア工学入門
+# データサイエンティストのためのソフトウェア工学入門
 
 <div style="display: flex; justify-content: center;">
-    <img src="./images/study-cs-top.jpeg" alt="ソフトウェア工学" style="border-radius: 10px; width: 50%;">
+    <img src="https://img.freepik.com/free-vector/programmer-working-isometric-style_52683-16729.jpg?semt=ais_hybrid" alt="ソフトウェア工学" style="border-radius: 10px; width: 30%;">
 </div>
 
 ---
@@ -180,7 +178,7 @@ mindmap
   </div>
 
   <div style="flex-shrink: 0;">
-    <img src="./images/wheel.jpeg" alt="ソフトウェア工学" style="border-radius: 10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wheel_of_an_old_horse_carriage.jpg/440px-Wheel_of_an_old_horse_carriage.jpg" alt="ソフトウェア工学" style="border-radius: 10px;">
   </div>
 </div>
 
@@ -259,7 +257,7 @@ void memory_leak_example() {
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6f9Q4ISQd5SbWoFTdrtGE5xZkelLUbPxKDA&s" alt="ミサイル" style="border-radius: 10px;">
   </div>
     <div style="flex-shrink: 1;">
-    <img src="./images/space-rocket.jpg" alt="スペースシャトル" style="border-radius: 10px;">
+    <img src="https://humans-in-space.jaxa.jp/assets/images/iss/launch/space-shuttle/img01.jpg" alt="スペースシャトル" style="border-radius: 10px;">
   </div>
 </div>
 
@@ -513,12 +511,14 @@ VSCode とは、Microsoft が開発した**統合開発環境（IDE）** です�
 devcontainer とは、Docker コンテナを利用して、開発環境を統一することができるツールです。
 VSCode の拡張機能である **Remote - Containers** を利用することで、VSCode の中で Docker コンテナを利用することができるようになります。
 
+[Devcontainer を利用した自動環境構築](https://jpdscore.github.io/blog/vscode/devcontainer_intro/)
+
 <div style="display: flex; justify-content: center; gap: 2rem;">
   <div>
     <img src="https://code.visualstudio.com/assets/docs/devcontainers/containers/architecture-containers.png" alt="devcontainer" style="border-radius: 10px; width: 600px;">
   </div>
   <div>
-    <img src="./images/devcontainer.png" alt="code" style="border-radius: 10px;">
+    <img src="https://jpdscore.github.io/blog/vscode/devcontainer_intro/devcontainer.json.PNG" alt="code" style="border-radius: 10px;">
   </div>
 </div>
 
@@ -580,6 +580,7 @@ VSCode を独自に拡張開発しているため、AI の利用を前提とし�
 
 - [Docker の公式サイト](https://www.docker.com/)
 - [VSCode Documentation](https://code.visualstudio.com/docs)
+- [Devcontainer を利用した自動環境構築](https://jpdscore.github.io/blog/vscode/devcontainer_intro/)
 - [GitHub Copilot](https://github.com/features/copilot)
 - [Cursor](https://www.cursor.com/)
 - [AI 搭載エディタ Cursor の紹介と機械学習コンペでの使用レビュー](https://speakerdeck.com/k951286/aida-zai-eteitacursornoshao-jie-toji-jie-xue-xi-konhetenoshi-yong-rehiyu)
