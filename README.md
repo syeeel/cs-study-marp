@@ -33,3 +33,17 @@ npx marp src/CS勉強会.md --html --allow-local-files --theme-set ./style/ -o d
 ```
 npx marp src/CS勉強会.md --pdf --allow-local-files -o docs/index.pdf
 ```
+
+# 編集可能な PPTX に変換するコマンド
+
+```
+marp --pptx --pptx-editable CS勉強会.md
+```
+
+※ Chrome や LibreOffice がインストールされている必要があります。そのため、ローカルでの実行が望ましいです。
+
+LibreOffice をインストールするコマンド
+
+```
+brew install libreoffice
+```
