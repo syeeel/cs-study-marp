@@ -32,7 +32,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install && sudo apt-get update && sudo apt-get install -y chromium",
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {}
+		"ghcr.io/devcontainers/features/node:2": {}
 	},
 	"containerEnv": {
 		"CHROME_PATH": "/usr/bin/chromium",
